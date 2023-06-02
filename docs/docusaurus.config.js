@@ -35,16 +35,6 @@ const config = {
                 docs: {
                     routeBasePath: "/",
                     sidebarPath: require.resolve('./sidebars.js'),
-                    lastVersion: '2.6',
-                    includeCurrentVersion: false,
-                    versions: {
-                        '2.5': {
-                            banner: 'none'
-                        },
-                        '2.6': {
-                            banner: 'none'
-                        },
-                    }
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -142,7 +132,7 @@ const config = {
                     {
                         type: 'doc',
                         position: 'left',
-                        docId: 'greenlight/v2/overview',
+                        docId: 'greenlight/v3/install',
                         label: 'Greenlight',
                     },
                     {
